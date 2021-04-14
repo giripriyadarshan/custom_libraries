@@ -34,7 +34,8 @@ public:
         return false;
     }
 
-    longpress(){
+    longpress()
+    {
         long_press_trigger = millis();
     }
 };
