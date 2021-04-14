@@ -28,7 +28,7 @@ public:
         }
 
         // removing false positives
-        if (digitalRead(pin) == HIGH)
+        if (digitalRead(pin) != trigger_state)
             lpt_c_v = 0;
 
         return false;
