@@ -10,10 +10,6 @@ public:
     void long_press_millis()
     {
         long_press_trigger = millis();
-    }
-
-    void confirm_press()
-    {
         lpt_c_v = 1;
     }
 
