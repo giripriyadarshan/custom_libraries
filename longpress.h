@@ -33,6 +33,10 @@ public:
 
         return false;
     }
+
+    longpress(){
+        long_press_trigger = millis();
+    }
 };
 
 #endif
