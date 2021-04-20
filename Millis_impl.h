@@ -54,7 +54,6 @@ public:
     }
     else
     {
-      t = millis();
       return false;
     }
   }
