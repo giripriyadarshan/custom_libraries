@@ -5,7 +5,7 @@ class longpress
 {
 private:
     unsigned long long_press_trigger;
-    int lpt_c_v = 0; // long_press_trigger control variable
+    int lpt_c_v; // long_press_trigger control variable
 public:
     void long_press_millis()
     {
@@ -37,6 +37,7 @@ public:
     longpress()
     {
         long_press_trigger = millis();
+        lpt_c_v = 0;
     }
 };
 
